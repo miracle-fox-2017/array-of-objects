@@ -26,4 +26,6 @@ function getData (name){
      }
    }
 }
+
+
 console.log(getData('Icha'));
