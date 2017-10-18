@@ -12,4 +12,14 @@ function createObj(name, phase, gender) {
 createObj('Akbar', 1, 'male')
 createObj('Icha', 1, 'female')
 
-console.log(arr);
+function getData(name){
+for(var i = 0; i < arr.length;i++){
+    if (arr[i].Name === name){
+        return arr[i];    
+    }
+}
+    return 0;
+}
+
+console.log(getData('Icha'));
+console.log(getData('Akbar'));
