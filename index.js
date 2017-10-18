@@ -11,4 +11,14 @@ const createObj = (name, phase, gender) => {
   return arr;
 }
 
-createObj('Akbar', 1, 'male')
+createObj('Yofri', 1, 'male');
+
+const getData = (name) => {
+  for (i in arr) {
+    if (arr[i]['name'] === name) {
+      return arr[i];
+    }
+  }
+}
+
+console.log(getData('Yofri'));
