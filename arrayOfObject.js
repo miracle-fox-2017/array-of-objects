@@ -21,7 +21,7 @@ console.log(arr)
 
 function getData(name){
   for(let i=0; i<arr.length; i++){
-    if(arr[i].Name == 'Icha'){
+    if(arr[i]['Name'] == 'Icha'){
       return arr[i]
     }
   }
