@@ -17,4 +17,14 @@ createObj('Atun',2,'Female')
 createObj('Zaenab',2,'Female')
 createObj('Mandra',3,'Male')
 
-console.log(arr)
+// console.log(arr)
+
+function getData(str){
+  for(let i=0; i<arr.length;i++){
+    if(str === arr[i].name){
+      return arr[i]
+    }
+  }
+
+}
+console.log(getData('Mandra'))
