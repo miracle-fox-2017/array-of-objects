@@ -17,17 +17,14 @@ createObj('Adhit', 2, 'male')
 createObj('Tama', 2, 'male')
 createObj('Rifky', 3, 'male')
 
-// console.log(arr)
+console.log(arr)
 
 function getData(name){
-  let get = []
   for(let i=0; i<arr.length; i++){
     if(arr[i].Name == 'Icha'){
-      get.push(arr[i])
+      return arr[i]
     }
   }
-
-  return get
 }
 
 console.log(getData('Icha'));
